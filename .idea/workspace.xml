@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc41d24b-5599-4b24-94bb-b3e59fec231b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
+    <list default="true" id="fc41d24b-5599-4b24-94bb-b3e59fec231b" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utility/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/add-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/shop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -51,12 +63,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602605707460</updated>
-      <workItem from="1602605708524" duration="8232000" />
+      <workItem from="1602605708524" duration="15781000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1602618604936</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602618604936</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="581" width="783" height="360" key="Github.ShareDialog" timestamp="1602618539584">
@@ -71,5 +95,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="53" y="184" key="SettingsEditor/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1602608330997" />
+    <state x="297" y="334" key="Vcs.Push.Dialog.v2" timestamp="1602618606583">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="297" y="334" key="Vcs.Push.Dialog.v2/2560.0.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1602618606583" />
   </component>
 </project>

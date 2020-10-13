@@ -1,10 +1,12 @@
 const express = require('express');
+const path = require('path');
+const rootDir = require('../utility/path');
 
 const router = express.Router();
 
 router.get('/', (request, response, next) => {
-
-    response.send("<h1>Hello from Express</h1>");
+// method to get access to the html files in the view directory
+    response.sendFile(path.join(rootDir, 'views', 'shop.html'))
 });
 
 
