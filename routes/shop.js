@@ -2,11 +2,23 @@ const express = require('express');
 const path = require('path');
 const rootDir = require('../utility/path');
 
+const adminData = require('./admin');
+
 const router = express.Router();
 
 router.get('/', (request, response, next) => {
+
+    const products = adminData.products;
+
 // method to get access to the html files in the view directory
-    response.sendFile(path.join(rootDir, 'views', 'shop.html'))
+    // render() is express method which use templating
+    // render() method allow us to pass the second argument
+    // which is data to be rendered into our view
+    response.render('shop', {
+        prods: products,
+        pageTitle: 'Shop',
+        path: '/'
+    });
 });
 
 

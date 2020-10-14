@@ -5,7 +5,13 @@ const path = require('path');
 
 const app = express();
 
-const adminRouter = require('./routes/admin');
+  // set() is a method for a global configuration value
+// details https://expressjs.com/en/4x/api.html#app.set
+app.set('view engine', 'pug');
+// path where to find this templates, second argument is our directory
+app.set('views', 'views')
+
+const adminData = require('./routes/admin');
 const shopRouter = require('./routes/shop')
 
 // to be able parse request body
@@ -18,13 +24,13 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 
 // the same as http://localhost:3000/admin
-app.use("/admin", adminRouter);
+app.use("/admin", adminData.routes);
 
 app.use(shopRouter);
 
 // we don't use path because it by default
 app.use((request, response, next) => {
-    response.status(404).sendFile(path.join(__dirname, 'views', '404.html'))
+    response.status(404).render('404', {pageTitle: 'Page Not Found'});
 })
 
 app.listen(3000)
